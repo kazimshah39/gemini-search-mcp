@@ -1,0 +1,46 @@
+{
+  "name": "@kazimshah39/gemini-search-mcp",
+  "version": "1.0.0",
+  "description": "Zero-dependency Model Context Protocol (MCP) server for live web search and grounding using Google Gemini.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "gemini-search-mcp": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gemini",
+    "google-search",
+    "grounding",
+    "web-search",
+    "ai",
+    "claude",
+    "cursor"
+  ],
+  "author": "Kazim Shah",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazimshah39/gemini-search-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kazimshah39/gemini-search-mcp/issues"
+  },
+  "homepage": "https://github.com/kazimshah39/gemini-search-mcp#readme"
+}
