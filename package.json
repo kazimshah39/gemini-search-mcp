@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./src/index.js",
   "bin": {
-    "gemini-search-mcp": "./bin/cli.js"
+    "gemini-search-mcp": "bin/cli.js"
   },
   "files": [
     "bin",
